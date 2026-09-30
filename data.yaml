@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['Ball', 'Hoop', 'Period', 'Player', 'Ref', 'Shot Clock', 'Team Name', 'Team Points', 'Time Remaining']
+
+roboflow:
+  workspace: model-etiketlemedeneme
+  project: basketball-players-vi5zp
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/model-etiketlemedeneme/basketball-players-vi5zp/dataset/2
