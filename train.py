@@ -17,7 +17,10 @@ def main():
         imgsz=1024, #pixel size
         batch=8,
         device=device,
-        exist_ok = True
+        exist_ok = True,
+        hsv_h=0.015,  # αποχρωση
+        hsv_s=0.7,    # κορεσμος
+        hsv_v=0.4     # φωτεινοτητα
     )
 
 #if file is executed by the user, run function main()
